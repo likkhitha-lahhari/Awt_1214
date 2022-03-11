@@ -1,0 +1,23 @@
+<!--let and const keywords-->
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>LET and CONST</title>
+    </head>
+    <body>
+      
+      <p id="demo"></p>
+      <script>
+          let x=10;
+          const clg="cvr";
+          if(x==10)
+           {
+               let x=50; //not changed because variables declared with let cannot be redeclared
+               document.getElementById("demo").innerHTML=x;
+               console.log("inside the block",x);
+           }
+    console.log("outside the block",x);
+    document.getElementById("demo").innerHTML=x;
+      </script>
+    </body>
+</html>

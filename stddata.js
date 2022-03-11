@@ -1,9 +1,9 @@
 let sname = 'likkhitha';
 let sdata = {
-    getName(){
+    getName :function(){
         return sname;
     },
-     setName(snew){
+     setName : function(snew){
          sname=snew;
     }
 }
